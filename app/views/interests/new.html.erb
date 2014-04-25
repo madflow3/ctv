@@ -33,11 +33,10 @@
                 <br>
                 <br>
                 <br>
-            <form class="navbar-form center">
-                <input type="text" class="form-control" placeholder="Inscrivez-vous par mail">
-                <!--<input type="text" class="form-control" placeholder="Search"> -->
-                <button type="submit" class="btn btn-default">Valider</button>
-            </form>
+            <%= form_for(@interest, html: {class: "navbar-form center"}, remote: true) do |f| %>
+            <%= f.text_field :email,  class: "form-control", placeholder: "Inscrivez-vous par mail" %>
+            <%= f.submit 'Valider', class: "btn btn-default" %>
+            <% end %>
             
             <!--<a href="#about" class="btn btn-default btn-lg">En savoir plus</a> -->
             <br>
@@ -197,11 +196,21 @@
             </div>
         </div>
     </footer>
-    <!-- /Footer -->
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <div class="modal fade" id="thanks" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h4>Merci à bientôt</h4>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Fermez</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- /Footer -->
 
     <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
     <script>

@@ -1,10 +1,14 @@
 Changetaville::Application.routes.draw do
+  resources :interests, only: [:new, :create]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'static_pages#home'
+  root 'interests#new'
 
+  get '/about', to: 'static_pages#about'
+  get '/contact', to: 'static_pages#contact'
+  get '/how', to: 'static_pages#how'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
