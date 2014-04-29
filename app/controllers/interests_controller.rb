@@ -7,7 +7,7 @@ class InterestsController < ApplicationController
 		@interest = Interest.new(interest_params)
 		if @interest.valid?
 			@interest.save
-			gb = Gibbon::API.new('55c2899ec9189665ff2b7cce4692dd69-us3')
+			gb = Gibbon::API.new(ENV['MAILCHIMP_KEY_ID'])
 			gb.lists.subscribe({id: '17ba7a018d', email: {email: @interest.email}, double_optin: true})
 		end
 	end
