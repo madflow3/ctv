@@ -4,6 +4,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 .vert-text {
@@ -14,12 +15,22 @@ body {
 }
 
 .vert-text h1 {
-  color: white;
+  color: #e67e22;
   padding: 0;
   margin-top: 0;
   margin: 0;
   font-size: 4.5em;
   font-weight: 500;
+}
+
+/* Intro */
+
+.intro {
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 150px; 
+  margin-right : 150px;
 }
 
 /* Side Menu */
@@ -91,6 +102,7 @@ body {
   right: 0;
   position: fixed;
   z-index: 1;
+  color: blue;
 }
 
 #sidebar-wrapper.active {
@@ -121,11 +133,7 @@ body {
   background-size: cover;
 }
 
-/* Intro */
 
-.intro {
-  padding: 50px 0;
-}
 
 /* Services */
 
@@ -238,5 +246,5 @@ i.scroll:hover {
 
 }
 .home-scroll {
-  color: white;
+  color: #e74c3c;
 }
