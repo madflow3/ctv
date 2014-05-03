@@ -102,7 +102,6 @@ body {
   right: 0;
   position: fixed;
   z-index: 1;
-  color: blue;
 }
 
 #sidebar-wrapper.active {
