@@ -15,8 +15,6 @@
             <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand"><a href="https://www.filbleu.fr/images/00_construction.png">Le site arrive ;)</a>
             </li>
-            <li><a href="#top">S'inscrire</a></li>
-            <li><a href="#about">Concept</a></li>
             <li><a href="#about">Photo: Nicolas Friess</a></li>
         </ul>
     </div>
@@ -31,13 +29,21 @@
                 <br>
                 <br>
                 <br>
-            <%= form_for(@interest, html: {class: "navbar-form center"}, remote: true) do |f| %>
-            <%= f.text_field :email,  class: "form-control", placeholder: "Inscrivez-vous par mail" %>
-            <%= f.submit 'Valider', class: "btn btn-default" %>
-            <% end %>
-            <br>
-            <br>
-            <br>
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="http://changetaville.us3.list-manage.com/subscribe/post?u=48eece03eb5e805a75894c803&amp;id=17ba7a018d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <br>
+    <br>
+    <br>
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Inscrivez votre email" required>
+    <div class="clear"><input type="submit" value="Validez" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_48eece03eb5e805a75894c803_17ba7a018d" value=""></div>
+</form>
+</div>
+<br>
+<!--End mc_embed_signup-->
+
             <!--<a href="#about" i class="fa fa-3x fa-angle-double-down animated home-scroll"></a>
         </div>
     </div>
@@ -57,7 +63,6 @@
         </div>
     </div>
     <!-- /Intro -->
-
     <!-- Services 
     <div id="services" class="services">
         <div class="container">
