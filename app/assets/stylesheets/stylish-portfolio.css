@@ -4,7 +4,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Philosopher', cursive;
   text-align:center;
   background: url(../img/NF_1.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -13,7 +13,7 @@ body {
   background-size: cover;
 }
 
-/* Full Page Image Header Area: la phot de fond*/
+/* Full Page Image Header Area: Participez aux */
 .header h1{
   color: #e67e22;
   font-size: 4.5em;
@@ -23,23 +23,23 @@ body {
 
 /* Intro: le texte d'explication du bas; */
 .intro {
-  background: rgba(0,0,0,0.5);
+  font-size: 1em;
+  background: rgba(0,0,0,0.2);
   border-radius: 10px;
-  padding: 1em;
+  padding: 3em;
   margin: auto;
   max-width: 1000px;
-  color: #fff;
+  color: #ecf0f1;
 }
 
 .intro p {
   font-size: 1.5em;
 }
 
-/* Le bouton Inscrivez votre mail */
-
+/* Champ S'inscrire */
 .mc_embed_signup {
-  font-size:1.6em;
-  margin:6em 0;
+  font-size:1.8em;
+  margin:4em 0;
   background-color: rgba(0,0,0,0.0);
 }
 
@@ -48,18 +48,12 @@ body {
   color: black;
 }
 
+/* Champ Inscrivez votre email */
 .mybutton {
   background-color: #E76F1F;
   border: 1px solid #E76F1F;
   color:#fff;
 }
-
-/* Le bouton Validez 
-#mc_embed_signup button {
-  clear:left; 
-  font:18px 'Gloria Hallelujah';
-  margin-left: 600px; 
-}*/
 
 /* Couleur du texte champ validez */
 .validez {
@@ -68,9 +62,6 @@ body {
 
 
 /* Side Menu */
-
-
-
 /* Menu principal barre verticale de droite */
 #sidebar-wrapper {
   margin-right: -250px;
@@ -165,7 +156,7 @@ body {
 }
 
 
-/* Services */
+/* Services 
 .services {
   background: #7fbbda;
   padding: 50px 0;
@@ -188,7 +179,7 @@ i.service-icon {
   text-align: center;
 }
 
-/* Callout */
+/* Callout 
 .callout {
   color: #ffffff;
   display: table;
@@ -201,7 +192,7 @@ i.service-icon {
   background-size: cover;
 }
 
-/* Portfolio */
+/* Portfolio 
 .portfolio {
   padding: 50px 0;
 }
@@ -214,7 +205,7 @@ i.service-icon {
   margin: 0 auto;
 }
 
-/* Call to Action */
+/* Call to Action 
 .call-to-action {
   color: #ffffff;
   background: #0a5175;
@@ -225,12 +216,12 @@ i.service-icon {
   margin: 10px;
 }
 
-/* Map */
+/* Map 
 .map {
   height: 500px;
 }
 
-/* Footer */
+/* Footer
 footer {
   padding: 100px 0;
 }
