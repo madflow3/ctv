@@ -13,27 +13,35 @@ body {
   background-size: cover;
 }
 
+.header{
+  color: #e67e22;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
 /* Full Page Image Header Area: Participez aux */
 .header h1{
-  color: #e67e22;
   font-size: 4.5em;
   font-weight: 500;
-  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.header p{
+  font-size: 2.5em;
+  font-weight: 400;
 }
 
 /* Intro: le texte d'explication du bas; */
 .intro {
-  font-size: 1.3em;
   background: rgba(0,0,0,0.5);
   border-radius: 10px;
-  padding: 3em;
-  margin: auto;
-  max-width: 1000px;
+  padding: 1.4em;
+  margin:5em auto;
+  max-width: 800px;
   color: #ecf0f1;
 }
 
 .intro p {
-  font-size: 1.5em;
+  font-size: 1.3em;
+  padding:.4em;
 }
 
 /* Champ S'inscrire */
@@ -244,10 +252,11 @@ i.scroll:hover {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	
-  .header {
-	background: url(../img/bg.jpg) no-repeat center center scroll; 
+  html, body {
+	  background:transparent
+    ;
   }
 
   .callout {
