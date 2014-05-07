@@ -20,14 +20,14 @@ body {
 
 /* Full Page Image Header Area: Participez aux */
 .header h1{
-  font-size: 5.5em;
+  font-size: 6em;
   font-weight: 500;
 }
 
 .header p{
   font-size: 3.5em;
   font-weight: 400;
-  padding: 1.2em;
+  padding: 0 6em;
 }
 
 /* Intro: le texte d'explication du bas; */
@@ -35,7 +35,7 @@ body {
   font-size: 1.2em;
   background: rgba(0,0,0,0.5);
   border-radius: 10px;
-  padding: 1.4em;
+  padding: 0.5em;
   margin:5em auto;
   max-width: 800px;
   color: #ecf0f1;
@@ -43,13 +43,13 @@ body {
 
 .intro p {
   font-size: 1.3em;
-  padding:.4em;
+  padding: 0.5em;
 }
 
 /* Champ S'inscrire */
 .mc_embed_signup {
   font-size:1.8em;
-  margin:4em 0;
+  margin:3em 0;
   background-color: rgba(0,0,0,0.0);
 }
 
